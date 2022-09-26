@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407983404644",
+    "project_id": "utp-network-mapping-app",
+    "storage_bucket": "utp-network-mapping-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407983404644:android:93a28e6ad9b82be71dd171",
+        "android_client_info": {
+          "package_name": "com.example.utp_network_mapping_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407983404644-sul64rjg6qhfd14idlp4g0qhn2ln2be6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMx_w7j4MGBjlP5yhOT9DoxD8_3Mq6pQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407983404644-sul64rjg6qhfd14idlp4g0qhn2ln2be6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
