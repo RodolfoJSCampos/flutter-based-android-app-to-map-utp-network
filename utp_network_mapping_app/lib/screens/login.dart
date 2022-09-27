@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:utp_network_mapping_app/screens/mapa_de_redes.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -57,7 +59,13 @@ class _LoginState extends State<Login> {
                   'Entrar',
                   style: TextStyle(fontSize: 18),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (context) => const MapaDeRedes(),
+                    ),
+                  );
+                },
               )),
         ],
       )),
